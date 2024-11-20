@@ -1,26 +1,23 @@
-<div class="p-4 bg-white/5 rounded-xl flex flex-col text-center">
-
+<x-panel>
     <div class="self-start text-sm">Laracasts</div>
 
 
-    <div class="py-8 font-bold">
-        <h3>Video Producer</h3>
-        <p>Full Time - from $60,000</p>
+    <div class="py-8 ">
+        <h3 class="font-bold group-hover:text-blue-800 text-xl transition-colors duration-300">Video Producer</h3>
+        <p class="text-xs mt-5">Full Time - from $60,000</p>
     </div>
 
 
-    <div class="flex justify-between items-center mt-auto">
+    <div class="flex justify-between items-center mt-auto bg-red">
         <div>
-            <x-tag>Tag</x-tag>
-            <x-tag>Tag</x-tag>
-            <x-tag>Tag</x-tag>
+            <x-tag size="small">Backend</x-tag>
+            <x-tag size="small">Frontend</x-tag>
+            <x-tag size="small">Manager</x-tag>
 
         </div>
 
-        <img src="http://placeholder.it/42/42" alt="" class="rounded-xl">
-
+        <x-employer-logo : width="42"/>
     </div>
 
-</div>
-
+</x-panel>
 
