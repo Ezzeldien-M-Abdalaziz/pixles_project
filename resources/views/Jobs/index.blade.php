@@ -15,7 +15,7 @@
 
             <div class="grid lg:grid-cols-3 gap-8 mt-6">
                 @foreach ($tags as $tag)
-                <x-job-card :$job />
+                <x-job-card :job />
             @endforeach
             </div>
 
@@ -37,11 +37,11 @@
 
                 <div class="mt-6 space-y-10">
                     @foreach ($jobs as $job)
-                        <x-job-card-wide :job="$job" />
+                        <x-job-card :job="$job" />
                     @endforeach
                 </div>
-
             </section>
+
 
     </div>
 
