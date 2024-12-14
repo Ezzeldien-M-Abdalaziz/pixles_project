@@ -14,7 +14,7 @@ class JobController extends Controller
      */
     public function index()
     {
-        return view('jobs.index' , [
+        return view('Jobs.index' , [
             'jobs'=> Job::all(),
             'tags'=>Tag::all()
         ]);
